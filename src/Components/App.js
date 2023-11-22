@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 import Products from "./Products";
 import Contact from "./Contact";
 import About from "./About";
-import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import { createHashRouter, RouterProvider, Outlet } from "react-router-dom";
 import Agriculture from "./Agriculture/Agriculture";
 import Residential from "./Residential/Residential";
 import AgriculturePricelist from "./Agriculture/AgriculturePricelist";
@@ -30,7 +30,7 @@ const AppAppLayout = () => {
   )
 }
 
-const appRouter = createBrowserRouter([
+const appRouter = createHashRouter([
   {
           path: "/",
           element: <AppAppLayout/>,
