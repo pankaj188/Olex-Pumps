@@ -5,10 +5,9 @@ const Header = () => {
 
     
 return(
-        <div className="flex justify-between bg-gray-50">
-                <div className="logo-container">
-                <img className="w-52 h-48" alt= "logo" src={logo}/>
-                
+        <div className="flex justify-between bg-gray-50 ">
+                <div className="logo-container ">
+                <img className="w-52 h-48 " alt= "logo" src={logo}/>
                 </div>
                 <div className="flex items-center">
                 <Link to="/products"><h2 className="mr-[700px] text-3xl font-bold ">Olex Pumps & Electricals LLP</h2></Link>

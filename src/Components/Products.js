@@ -4,7 +4,7 @@ import Residential from "./Residential/Residential";
 
 const Products = () => {
     return (
-        <div className="flex flex-wrap  m-2 "> 
+        <div className="flex flex-wrap  m-2 sm:inline-flex md:block lg:flex xl:flex "> 
             <div className="flex">
                 <div className="mx-16 space-x-11 my-10 p-4 w-7/12 border-2 cursor-pointer shadow-md hover:bg-gray-200" ><Link to="/agriculture"><img className=""  src="https://d13bbii8ozdt01.cloudfront.net/uploads/2019/11/pump-listing-banner-agriculture-new_compressed.png"/></Link>
                 <h2 className=" mx-16 my-1 p-6 text-4xl font-bold" >Agricultural Pumps</h2>

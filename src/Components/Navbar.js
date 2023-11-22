@@ -9,7 +9,7 @@ import Residential from "./Residential/Residential";
 const Navbar = () => {
     return(
             <div className="flex justify-evenly shadow-md bg-blue-900">
-                    <div className="flex items-center">
+                    <div className="flex items-center ">
                             <ul className="flex m-6  text-white text-3xl ">
                             <li className="px-40"><Link to="/">Home</Link></li>
                             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" >Products <span class="caret"></span></a>

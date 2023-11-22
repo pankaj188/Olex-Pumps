@@ -6,9 +6,9 @@ import { banner } from "../utility/constants";
 const Home = () => {
 
     return (
-        <div className="flex flex-wrap ">
+        <div className="flex flex-wrap">
         <div>
-        <img className=""src={banner}/>
+        <img className="" src={banner}/>
         
         </div>
             < Products/>
