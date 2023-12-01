@@ -60,7 +60,7 @@ import Residential from "./Residential/Residential";
 
 const Navbar = () => {
     return(
-            <div className="flex justify-evenly shadow-md bg-blue-900  m-4 block hidden">
+            <div className="flex justify-evenly shadow-md bg-blue-900  m-1 ">
                     <div className="flex items-center md:place-items-center space-x-4 ">
                             <ul className="flex m-6  text-white text-4xl ">
                             <li className="px-40"><Link to="/">Home</Link></li>
