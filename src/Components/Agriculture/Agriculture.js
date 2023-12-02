@@ -12,8 +12,8 @@ const Agriculture = () => {
     return (
         <div className="">
             <div className="text-justify">
-            <h1 className="text-center m-12 text-6xl">Agricultural Pumps</h1>
-            <p className="mx-28 my-8 text-xl md:text-2xl">Agricultural pumps are a crucial component in the agriculture industry, providing water for irrigation and other farming needs. There are various types, such as farm water pumps, irrigation water pumps, and booster pumps, each designed to meet specific needs. These pumps ensure a steady water supply to crops, improving their growth and yield. 
+            <h1 className="text-center m-12 text-4xl md:text-6xl">Agricultural Pumps</h1>
+            <p className="m-4 p-4 md:mx-28 my-8 text-xl md:text-2xl">Agricultural pumps are a crucial component in the agriculture industry, providing water for irrigation and other farming needs. There are various types, such as farm water pumps, irrigation water pumps, and booster pumps, each designed to meet specific needs. These pumps ensure a steady water supply to crops, improving their growth and yield. 
                 The price of an agriculture water pump varies depending on its size, material, and pumping capacity.</p>
             </div>
             
