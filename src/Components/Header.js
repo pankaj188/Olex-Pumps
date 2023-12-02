@@ -9,7 +9,7 @@ return(
                 <div className="logo-container ">
                 <img className="w-52 max-w-sm max-w-md h-48" alt= "logo" src={logo}/>
                 </div>
-                <Link to="/products"><div className="flex items-center md:place-items-center w-[300px] mt-20 m-2 text-xl sm:text-3xl  font-bold ">Olex Pumps & Electricals LLP</div></Link>
+                <Link to="/products"><div className="flex items-center md:place-items-center w-[300px] mt-20 m-2 text-2xl sm:text-3xl  font-bold ">Olex Pumps & Electricals LLP</div></Link>
                 <div className=" flex invisible md:visible md:ml-56 xl:ml-[400px]  justify-start lg:justify-end ">
                      
                         <ul className="flex  pt-12 text-2xl">

@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 const Footer = () => {
   return (
-    <footer className="bg-blue-900 text-white p-4 w-[380px] m-2 md:w-full ">
+    <footer className="bg-blue-900 text-white p-4 w-[420px] m-2 md:w-full ">
       <div className="container mx-auto ">
         <div className="grid  grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Social Media Section */}
