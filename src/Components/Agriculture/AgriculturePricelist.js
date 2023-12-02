@@ -9,7 +9,7 @@ const AgriculturePricelist = () => {
   
 
     return (
-        <div className="hidden sm:block">
+        <div className="hidden ">
          
           {/* <div className="flex">
             <div className=" mx-6  ">
@@ -21,8 +21,8 @@ const AgriculturePricelist = () => {
             <p className="text-2xl px-40 py-6"> The price of an agriculture water pump varies depending on its size, material, and pumping capacity.</p>
             </div>
           </div> */}
-          <table className=" md:table-auto mx-96 my-8 border-collapse border border-slate-400 m-10 ">
-          <caption class="caption-top  font-bold text-4xl text-center p-6 ">
+          <table className=" md:table-auto md:mx-96 my-8 border-collapse border border-slate-400 md:m-10 ">
+          <caption class="caption-top  font-bold  md:text-4xl text-center p-6 ">
               Agriculture Pumps
             </caption>
             <caption class="caption-top text-center border border-slate-300">

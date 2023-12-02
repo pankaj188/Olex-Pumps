@@ -7,13 +7,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 const Footer = () => {
   return (
-    <footer className="bg-blue-900 text-white p-4 w-[420px] md:w-full ">
+    <footer className="bg-blue-900 text-white m-2 p-12 sm:w-[300px] md:w-full border-black border-8">
       <div className="container mx-auto ">
-        <div className="grid  grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid  grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Social Media Section */}
           <div className="mb-8 md:mb-0 ">
             <h2 className="text-2xl font-semibold mb-4">Follow Us</h2>
-            <div className="flex flex-wrap space-x-4 ">
+            <div className="flex flex-wrap space-x-4">
               <ul className="">
               <li className=""><a href="#" className="hover:text-gray-300 pr-4">
                 <FontAwesomeIcon icon={faFacebook} />
