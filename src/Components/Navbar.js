@@ -7,49 +7,46 @@ import Agriculture from "./Agriculture/Agriculture";
 import Residential from "./Residential/Residential";
 
 
-// import React, { useState } from 'react';
+// Navbar.js
+
+// Navbar.js
+
+// import React from 'react';
 
 // const Navbar = () => {
-//   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
-//   const toggleMobileMenu = () => {
-//     setIsMobileMenuOpen(!isMobileMenuOpen);
-//   };
-
 //   return (
 //     <nav className="bg-gray-800 p-4">
 //       <div className="container mx-auto flex justify-between items-center">
+//         <div className="text-white text-lg font-bold">Your Logo</div>
 
-//         {/* Logo */}
-//         <div className="text-white text-xl font-semibold">
-//           Your Logo
+//         {/* Remove md:flex to make it visible on all screen sizes */}
+//         <div className="flex space-x-4">
+//           <a href="#" className="text-white hover:text-gray-300">Home</a>
+//           <a href="#" className="text-white hover:text-gray-300">About</a>
+//           <a href="#" className="text-white hover:text-gray-300">Services</a>
+//           <a href="#" className="text-white hover:text-gray-300">Contact</a>
 //         </div>
 
-//         {/* Navbar Links (hidden on small and medium screens) */}
-//         <div className={`hidden md:flex space-x-4 ${isMobileMenuOpen ? 'hidden' : ''}`}>
-//           <a href="#" className="text-white">Home</a>
-//           <a href="#" className="text-white">About</a>
-//           <a href="#" className="text-white">Services</a>
-//           <a href="#" className="text-white">Contact</a>
-//         </div>
-
-//         {/* Mobile Menu Button (visible on small and medium screens) */}
+//         {/* Add a responsive menu for smaller screens */}
 //         <div className="md:hidden">
-//           <button onClick={toggleMobileMenu} className="text-white focus:outline-none">
-//             <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-//               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+//           {/* You can use a library like react-icons for a hamburger icon */}
+//           <button className="text-white">
+//             <svg
+//               className="h-6 w-6"
+//               fill="none"
+//               stroke="currentColor"
+//               viewBox="0 0 24 24"
+//               xmlns="http://www.w3.org/2000/svg"
+//             >
+//               <path
+//                 strokeLinecap="round"
+//                 strokeLinejoin="round"
+//                 strokeWidth="2"
+//                 d="M4 6h16M4 12h16m-7 6h7"
+//               ></path>
 //             </svg>
 //           </button>
 //         </div>
-
-//       </div>
-
-//       {/* Mobile Menu (hidden by default) */}
-//       <div className={`md:hidden ${isMobileMenuOpen ? '' : 'hidden'} bg-gray-800 text-white p-4`}>
-//         <a href="#" className="block py-2">Home</a>
-//         <a href="#" className="block py-2">About</a>
-//         <a href="#" className="block py-2">Services</a>
-//         <a href="#" className="block py-2">Contact</a>
 //       </div>
 //     </nav>
 //   );
@@ -57,24 +54,25 @@ import Residential from "./Residential/Residential";
 
 // export default Navbar;
 
-
 const Navbar = () => {
     return(
-            <div className="flex justify-evenly shadow-md bg-blue-900  m-1 ">
-                    <div className="flex items-center md:place-items-center space-x-4 ">
-                            <ul className="flex m-6  text-white text-4xl ">
-                            <li className="px-40"><Link to="/">Home</Link></li>
-                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" >Products <span class="caret"></span></a>
+        <nav>
+            <div className="flex justify-evenly shadow-md bg-blue-900  m-1 block 2xl:hidden ">
+                    <div className="flex space-x-4 items-center md:place-items-center space-x-4 ">
+                            <ul className="flex m-6  text-white text-2xl md:3xl lg:text-4xl  ">
+                            <Link  to="/"><li className="px-10 md:px-40 hover:text-gray-400">Home</li></Link>
+                            <li class="dropdown hover:text-gray-400"><a class="dropdown-toggle" data-toggle="dropdown" >Products <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                            <li><Link to="/agriculture">Agriculture Pumps</Link></li>
-                            <li><Link to="/residential">Residential Pumps</Link></li>
+                            <Link  to="/agriculture"><li className="text-black">Agriculture Pumps</li></Link>
+                            <Link  to="/residential"><li className="text-black">Residential Pumps</li></Link>
                              </ul>
                             </li>
-                            <li className="px-40"><Link to="/about">About Us</Link></li>
-                            <li className="px-18"><Link to="/contact">Contact Us</Link></li>         
+                            <Link  to="/about"><li className="px-10 md:px-40 hover:text-gray-400">About Us</li></Link>
+                            <Link to="/contact"><li className="px-10 md:px-18 hover:text-gray-400 ">Contact Us</li></Link>         
                             </ul>
                     </div>
             </div>
+            </nav>
     )
     };
     

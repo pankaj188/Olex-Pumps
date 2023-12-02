@@ -1,6 +1,6 @@
 const ResidentialPricelist = () => {
     return (
-        <div>
+        <div className="hidden sm:block">
             <table className=" table-auto mx-96 my-24 border-collapse border border-slate-400 m-10">
             <caption class="caption-top  font-bold text-4xl text-center p-6 ">
               Residential Pumps

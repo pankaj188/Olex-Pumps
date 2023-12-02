@@ -3,8 +3,8 @@ import AgriculturePricelist from "./AgriculturePricelist";
 const V50Agriculturepump = () => {
     return (
         <div>
-            <div className="flex">
-            <div className=" mx-6  ">
+            <div className="md:flex p-2 border-black border-8">
+            <div className=" md:mx-6 py-2 border-black border-8 ">
             <img className="mx-52" src={V_50}></img>
             </div>
             <div className="text-center mx-6 p-12">

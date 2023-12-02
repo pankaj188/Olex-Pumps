@@ -5,7 +5,7 @@ const Header = () => {
 
     
 return(
-        <div className=" flex  text-center bg-gray-50 w-full m-4 sm:m-2">
+        <div className=" flex  text-center bg-gray-50 w-72 md:w-full m-4 sm:m-2 ">
                 <div className="logo-container ">
                 <img className="w-52 max-w-sm max-w-md h-48" alt= "logo" src={logo}/>
                 </div>

@@ -4,7 +4,7 @@ import ResidentialPricelist from "./ResidentialPricelist";
 const CFMSMBResidentialpump = () => {
     return (
         <div>
-            <div className="flex">
+            <div className="md:flex">
             <div className=" mx-6  ">
             <img className="mx-52" src={CFMSMB_series}></img>
             </div>

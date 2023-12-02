@@ -15,7 +15,7 @@ const Residential = () => {
             <p className="mx-28 my-8 text-2xl ">Residential pumps are essential for homeowners who need to maintain and regulate the water pressure in their homes. 
             A water pump for residential use can be used for various purposes, including providing drinking water, watering plants and gardens, filling swimming pools and hot tubs, and supporting multiple plumbing systems.</p>
             
-            <div className="flex ">
+            <div className="sm:flex text-justify">
             <div className=" p-4 m-10 shadow-md bg-gray-50 hover:bg-gray-200 cursor-pointer">
                 <Link to="/CFMSMBResidentialpump"><img src={CFMSMB}></img></Link>
                 <h2 className="text-center p-2 text-2xl font-bold ">CFMSMB Series – Water Pressure Pump</h2>

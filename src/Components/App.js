@@ -21,7 +21,7 @@ import V4Residentialpump from "./Residential/V4Residentialpump";
 
 const AppAppLayout = () => {
   return (
-    <div className="app">
+    <div className="app ">
       <Header/>
       <Navbar/>
       <Outlet/>

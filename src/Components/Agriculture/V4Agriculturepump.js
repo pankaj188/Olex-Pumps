@@ -4,7 +4,7 @@ import AgriculturePricelist from "./AgriculturePricelist";
 const V4Agriculturepump = () => {
     return (
         <div>
-            <div className="flex">
+            <div className="md:flex">
             <div className=" mx-6  ">
             <img className="mx-52" src={V_4}></img>
             </div>

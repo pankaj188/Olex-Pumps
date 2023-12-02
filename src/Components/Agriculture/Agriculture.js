@@ -11,12 +11,14 @@ import V4Agriculturepump from "./V4Agriculturepump";
 const Agriculture = () => {
     return (
         <div className="">
+            <div className="text-justify">
             <h1 className="text-center m-12 text-6xl">Agricultural Pumps</h1>
             <p className="mx-28 my-8 text-2xl">Agricultural pumps are a crucial component in the agriculture industry, providing water for irrigation and other farming needs. There are various types, such as farm water pumps, irrigation water pumps, and booster pumps, each designed to meet specific needs. These pumps ensure a steady water supply to crops, improving their growth and yield. 
                 The price of an agriculture water pump varies depending on its size, material, and pumping capacity.</p>
+            </div>
             
-            <div className="flex ">
-            <div className=" p-4 m-10 shadow-md bg-gray-50 hover:bg-gray-200 cursor-pointer">
+            <div className="sm:flex">
+            <div className=" p-4 m-10 shadow-md bg-gray-50 hover:bg-gray-200 cursor-pointer ">
                 <Link to="/V50Agriculturepump"><img src={V50}></img></Link>
                 <h2 className="text-center p-2 text-2xl font-bold ">V-50 feet Per Stage Borewell Submersible Pumps</h2>
             </div>

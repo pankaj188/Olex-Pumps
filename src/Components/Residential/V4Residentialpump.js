@@ -4,7 +4,7 @@ import ResidentialPricelist from "./ResidentialPricelist";
 const V4Residentialpump = () => {
     return (
         <div>
-            <div className="flex">
+            <div className="md:flex">
             <div className=" mx-6  ">
             <img className="mx-52" src={V4_Stainless}></img>
             </div>
