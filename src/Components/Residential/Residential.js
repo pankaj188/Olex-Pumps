@@ -11,8 +11,8 @@ import V4Residentialpump from "./V4Residentialpump";
 const Residential = () => {
     return (
         <div className="">
-            <h1 className="text-center m-12 text-6xl">Residential Pumps</h1>
-            <p className="mx-28 my-8 text-2xl ">Residential pumps are essential for homeowners who need to maintain and regulate the water pressure in their homes. 
+            <h1 className="text-center m-12 md:text-6xl">Residential Pumps</h1>
+            <p className="m-4 md:mx-28 my-8 md:text-2xl ">Residential pumps are essential for homeowners who need to maintain and regulate the water pressure in their homes. 
             A water pump for residential use can be used for various purposes, including providing drinking water, watering plants and gardens, filling swimming pools and hot tubs, and supporting multiple plumbing systems.</p>
             
             <div className="sm:flex text-justify">
