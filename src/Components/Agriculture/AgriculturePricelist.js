@@ -21,24 +21,24 @@ const AgriculturePricelist = () => {
             <p className="text-2xl px-40 py-6"> The price of an agriculture water pump varies depending on its size, material, and pumping capacity.</p>
             </div>
           </div> */}
-          <table className=" md:table-auto md:mx-96 my-8 border-collapse border border-slate-400 md:m-10 ">
+          <table className="border-black border-8 table-auto md:mx-96 my-8 border-collapse border-slate-400 md:m-10 ">
           <caption class="caption-top  font-bold  md:text-4xl text-center p-6 ">
               Agriculture Pumps
             </caption>
-            <caption class="caption-top text-center border border-slate-300">
+            <caption class="caption-top text-center border border-slate-300 text-sm md:text-xl">
               V4 SUBMERSIBLE PUMPSETS (WATER FILLED MOTOR) - Premium Series
             </caption>
-              <thead>
-                <tr>
-                  <th className="border border-slate-300 p-4">Sr.No.</th>
-                  <th className="border border-slate-300 p-4">Description</th>
-                  <th className="border border-slate-300 p-4">HP</th>
-                  <th className="border border-slate-300 p-4">K.W</th>
-                  <th className="border border-slate-300 p-4">No of Stages</th>
-                  <th className="border border-slate-300 p-4">Outlet Size(m)</th>
-                  <th className="border border-slate-300 p-4">Head Range(m)</th>
-                  <th className="border border-slate-300 p-4">Head Range(ft.)</th>
-                  <th className="border border-slate-300 p-4">Discharge Range(LPH)</th>
+              <thead >
+                <tr className="text-sm md:text-xl ">
+                  <th className="border border-slate-300 sm:p-1 text-sm md:p-4">Sr.No.</th>
+                  <th className="border border-slate-300  sm:p-1  md:p-4">Description</th>
+                  <th className="border border-slate-300  sm:p-1 md:p-4">HP</th>
+                  <th className="border border-slate-300  sm:p-1 md:p-4">K.W</th>
+                  <th className="border border-slate-300  sm:p-1 md:p-4">No of Stages</th>
+                  <th className="border border-slate-300  sm:p-1 md:p-4">Outlet Size(m)</th>
+                  <th className="border border-slate-300  sm:p-1 md:p-4">Head Range(m)</th>
+                  <th className="border border-slate-300  sm:p-1 md:p-4">Head Range(ft.)</th>
+                  <th className="border border-slate-300  sm:p-1 md:p-4">Discharge Range(LPH)</th>
                 </tr>
               </thead>
               <tbody>
