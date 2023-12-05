@@ -9,19 +9,9 @@ const AgriculturePricelist = () => {
   
 
     return (
-        <div className="hidden ">
+        <div className="hidden">
          
-          {/* <div className="flex">
-            <div className=" mx-6  ">
-            <img className="mx-52" src={"https://d13bbii8ozdt01.cloudfront.net/uploads/2019/07/"+Pumpsdata[0].info.cloudinaryImageId}></img>
-            </div>
-            <div className="text-center mx-6 p-12">
-            <h2 className=" p-2 text-6xl font-bold my-20 ">V-50 feet Per Stage Borewell Submersible Pumps</h2>
-            <p className="text-4xl p-4">Agricultural Pumps | Agricultural Submersible Pumps</p>
-            <p className="text-2xl px-40 py-6"> The price of an agriculture water pump varies depending on its size, material, and pumping capacity.</p>
-            </div>
-          </div> */}
-          <table className="border-black border-8 table-auto md:mx-96 my-8 border-collapse border-slate-400 md:m-10 ">
+          <table className="border-8 table-auto md:mx-96 my-8 border-collapse md:m-10 ">
           <caption class="caption-top  font-bold  md:text-4xl text-center p-6 ">
               Agriculture Pumps
             </caption>
@@ -29,7 +19,7 @@ const AgriculturePricelist = () => {
               V4 SUBMERSIBLE PUMPSETS (WATER FILLED MOTOR) - Premium Series
             </caption>
               <thead >
-                <tr className="text-sm md:text-xl ">
+                <tr className="text-sm md:text-xl">
                   <th className="border border-slate-300 sm:p-1 text-sm md:p-4">Sr.No.</th>
                   <th className="border border-slate-300  sm:p-1  md:p-4">Description</th>
                   <th className="border border-slate-300  sm:p-1 md:p-4">HP</th>
