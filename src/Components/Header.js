@@ -13,11 +13,11 @@ return(
                 <div className=" flex invisible md:visible md:ml-50 xl:ml-[400px]  justify-start lg:justify-end ">
                      
                         <ul className="flex  pt-12 text-xl md:text-2xl">
-                                <li className="px-8 font-bold">Contact Us
-                                <h4 className="font-normal">+91-9773675780</h4>
+                                <li className="px-10 font-bold">Contact Us
+                                <h4 className="font-normal "><a href="tel:+91-9773675780" className="text-green-500">+91-9773675780</a></h4>
                                 </li>
                                 <li className="px-10 font-bold">Email Us
-                                <h4 className="font-normal">olexpumps@gmail.com</h4>
+                                <p><a href="mailto:olexpumps@gmail.com" className="text-blue-900">olexpumps@gmail.com</a></p>
                                 </li>           
                         </ul>
                 </div>
