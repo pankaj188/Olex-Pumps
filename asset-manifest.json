@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Olex-Pumps/static/css/main.8b661e32.css",
-    "main.js": "/Olex-Pumps/static/js/main.76b6fd0a.js",
+    "main.css": "/Olex-Pumps/static/css/main.02da7045.css",
+    "main.js": "/Olex-Pumps/static/js/main.04a41482.js",
     "static/media/olexlogo.png": "/Olex-Pumps/static/media/olexlogo.182fe357580dcaa8444f.png",
     "index.html": "/Olex-Pumps/index.html",
-    "main.8b661e32.css.map": "/Olex-Pumps/static/css/main.8b661e32.css.map",
-    "main.76b6fd0a.js.map": "/Olex-Pumps/static/js/main.76b6fd0a.js.map"
+    "main.02da7045.css.map": "/Olex-Pumps/static/css/main.02da7045.css.map",
+    "main.04a41482.js.map": "/Olex-Pumps/static/js/main.04a41482.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b661e32.css",
-    "static/js/main.76b6fd0a.js"
+    "static/css/main.02da7045.css",
+    "static/js/main.04a41482.js"
   ]
 }
