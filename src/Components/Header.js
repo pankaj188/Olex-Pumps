@@ -14,10 +14,10 @@ return(
                      
                         <ul className="flex  pt-12 text-xl md:text-2xl">
                                 <li className="px-10 font-bold">Contact Us
-                                <h4 className="font-normal "><a href="tel:+91-9773675780" className="text-green-500">+91-9773675780</a></h4>
+                                <p className="font-normal text-2xl "><a href="tel:+91-9773675780" className="text-blue-900">+91-9773675780</a></p>
                                 </li>
                                 <li className="px-10 font-bold">Email Us
-                                <p><a href="mailto:olexpumps@gmail.com" className="text-blue-900">olexpumps@gmail.com</a></p>
+                                <p className="font-normal text-2xl "><a href="mailto:olexpumps@gmail.com" className="text-blue-900">olexpumps@gmail.com</a></p>
                                 </li>           
                         </ul>
                 </div>

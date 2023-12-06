@@ -52,7 +52,7 @@ const Footer = () => {
           <div className="mb-8 md:mb-0">
             <h2 className="text-2xl font-semibold mb-4">Contact</h2>
             <p>Email : <a href="mailto:olexpumps@gmail.com" className="text-white hover:text-gray-300 m-2 text-xl">olexpumps@gmail.com</a></p>
-            <p>Phone : <a href="tel:+91-9773675780" className="text-white hover:text-gray-300 m-2">+91-9773675780</a></p>
+            <p>Phone : <a href="tel:+91-9773675780" className="text-white hover:text-gray-300 m-2 text-xl">+91-9773675780</a></p>
           </div>
 
           {/* Address Section */}
